@@ -8,3 +8,5 @@ This works fine with Maven 3.3.9 and Oracle JDK 8 from command line.
 For IntelliJ, you need to set your JUnit defaults (or for each test run) to run ```mvn compile test-compile``` before the test run, or you'll get weird URI issues in the plugin manager.
 
 NOTE: adapted from the test setup for the official [Pipeline: Build-step plugin](https://github.com/jenkinsci/pipeline-build-step-plugin)
+
+NOTE: I goofed and forgot to remove the resources from main and test. This SHOULD work without those, but I don't have a hot minute to verify.
