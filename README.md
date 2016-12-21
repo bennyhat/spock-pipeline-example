@@ -10,3 +10,5 @@ For IntelliJ, you need to set your JUnit defaults (or for each test run) to run 
 NOTE: adapted from the test setup for the official [Pipeline: Build-step plugin](https://github.com/jenkinsci/pipeline-build-step-plugin)
 
 NOTE: I goofed and forgot to remove the resources from main and test. This SHOULD work without those, but I don't have a hot minute to verify.
+
+NOTE: Finally, I can not get my darn surefire plugin to pick up the GMaven stubs, so I just left my test names as *Test.java instead of *Spec.java
